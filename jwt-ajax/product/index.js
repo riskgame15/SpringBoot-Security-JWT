@@ -1,5 +1,5 @@
 function showAllProduct() {
-    let token = getToken();
+    let token = getToken(); // luu token o local storage
     if (token==null) {
         window.location.href = "../login/login.html"
     }
