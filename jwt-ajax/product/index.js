@@ -45,4 +45,4 @@ function getToken(){
 // }
 //
 // getName()
-localStorage.setItem("test", value)
+localStorage.setItem("test", value) // set local storage
