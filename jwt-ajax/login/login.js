@@ -16,7 +16,7 @@ function login() {
         type: "POST",
         data: JSON.stringify(user),
         success: function (result) {
-            // console.log(result);
+            // console.log(result); hien thi ket qua de xem lay dc du lieu chua
             localStorage.setItem("token", result.token);
             localStorage.setItem("name",result.name);
             window.location.href = "../product/index.html"
